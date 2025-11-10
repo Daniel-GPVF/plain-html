@@ -1,0 +1,12 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+
+<style type="text/css">
+                .st0{stroke:#0D0D0D;}
+</style>
+    <path class="st0" d="M30.75,92.11h130.5A2.75,2.75,0,0,1,164,94.86v53.25a16,16,0,0,1-16,16H44a16,16,0,0,1-16-16V94.86A2.75,2.75,0,0,1,30.75,92.11Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <path class="st0" d="M172,84.11a8,8,0,0,1-8,8H28a8,8,0,0,1-8-8v-8a8,8,0,0,1,8-8H172Z" fill="none" stroke-linecap="round" stroke-width="8"/>
+    <path class="st0" d="M51.63,32.15H64a20,20,0,0,1,20,20v16a0,0,0,0,1,0,0H55.68a20,20,0,0,1-20-20v0A16,16,0,0,1,51.63,32.15Z" fill="none" stroke-linecap="round" stroke-width="8"/>
+    <path class="st0" d="M128,32.15h28.32a0,0,0,0,1,0,0v16a20,20,0,0,1-20,20H124a16,16,0,0,1-16-16v0a20,20,0,0,1,20-20Z" transform="translate(264.32 100.26) rotate(-180)" fill="none" stroke-linecap="round" stroke-width="8"/>
+    <rect class="st0" x="84" y="68.11" width="24" height="96" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <path class="st0" d="M96,44.46h0a12,12,0,0,1,12,12V68.11a0,0,0,0,1,0,0H84a0,0,0,0,1,0,0V56.46a12,12,0,0,1,12-12Z" fill="none" stroke-linecap="round" stroke-width="8"/>
+</svg>

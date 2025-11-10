@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/ProductCard.html">ProductCard</a></li>
+          <li><a href="../html/DiscoverySection.html">DiscoverySection</a></li>
+          <li><a href="../html/DC-grid.html">DC-grid</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="grid">
+      <div class="card1"></div>
+      <div class="card2"></div>
+      <div class="card3"></div>
+      <div class="card4"></div>
+      <div class="card5"></div>
+    </div>
+
+    <style>
+      .card1 {
+        background-color: coral;
+      }
+
+      .card2 {
+        background-color: lightblue;
+      }
+
+      .card3 {
+        background-color: lightgreen;
+      }
+
+      .card4 {
+        background-color: lightpink;
+      }
+
+      .card5 {
+        background-color: lightgray;
+      }
+
+      .grid {
+        justify-content: center;
+        min-width: 568px;
+        max-width: 1248px;
+        min-height: 999px;
+        background-color: aquamarine;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 32px;
+      }
+    </style>
+  </body>
+</html>

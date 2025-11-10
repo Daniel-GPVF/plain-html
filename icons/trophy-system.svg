@@ -1,0 +1,11 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+
+<style type="text/css">
+                .st0{stroke:#0D0D0D;}
+</style>
+    <path class="st0" d="M69.53,172a26.47,26.47,0,0,1,52.94,0Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <path class="st0" d="M137.43,27.78,127.05,90.35C122,113,110.71,116.22,95.31,116.22S68.65,113,63.57,90.35L53.19,27.78Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <line class="st0" x1="95.31" y1="116.22" x2="95.31" y2="145.52" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <path class="st0" d="M137.43,27.78h26.62S161.76,59.87,152,69.64c-11,11-22.54,6.18-22.54,6.18" fill="none" stroke-linecap="round" stroke-width="8"/>
+    <path class="st0" d="M53.18,27.78H26.57s2.28,32.09,12,41.86c11,11,22.54,6.18,22.54,6.18" fill="none" stroke-linecap="round" stroke-width="8"/>
+</svg>

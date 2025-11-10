@@ -1,0 +1,10 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+
+<style type="text/css">
+                .st0{stroke:#0D0D0D;}
+</style>
+      <line class="st0" x1="56" y1="155.73" x2="136" y2="155.73" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <line class="st0" x1="96" y1="155.73" x2="96" y2="139.73" fill="none" stroke-linejoin="round" stroke-width="8"/>
+      <path class="st0" d="M36,35.73H172a0,0,0,0,1,0,0v88a16,16,0,0,1-16,16H36a16,16,0,0,1-16-16v-72A16,16,0,0,1,36,35.73Z" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+      <circle class="st0" cx="96" cy="119.98" r="1.23" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
