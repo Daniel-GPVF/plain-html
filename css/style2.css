@@ -1,0 +1,88 @@
+/* --- dark mode toggle --- */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    background-color: rgb(36, 36, 36);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    z-index: +1;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+/* body.dark -> trifft die class "dark" AUF dem "body"
+   body .dark -> trifft die class "dark" IN dem "body" */
+body.dark {
+    background-color: #292c35;
+    color: #fff;
+}
+
+.label {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    height: 26px;
+    width: 50px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+transform: translateX(24px);
+}
+
+.fa-moon{
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}

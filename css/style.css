@@ -1,0 +1,241 @@
+body {
+  background-color: rgb(50, 50, 50);
+}
+
+#header-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  background-color: rgb(36, 36, 36);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  z-index: +1;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+/*
+a:visited{
+    color: lightgray;
+}
+*/
+
+#div1 {
+  background-color: aliceblue;
+  padding: 5pt;
+  width: max-content;
+  border-radius: 10rem;
+}
+
+table,
+tr,
+td,
+caption,
+th {
+  border: 1px solid white;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* SIMon-Card nachbauen */
+
+@font-face {
+  font-family: Rubik-Black;
+  src: url(../fonts/Rubik-Black.ttf);
+}
+
+@font-face {
+  font-family: RobotoCondensed-Regular;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+/* SIMon Nav */
+
+.SIMonNAV ul {
+  font-family: "RobotoCondensed-Regular";
+  position: relative;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.SIMonNAV li {
+  float: left;
+}
+
+.SIMonNAV a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
+  display: block;
+  text-align: center;
+}
+
+.SIMonNAV a:hover {
+  color: #8f1cd6;
+}
+
+/* SIMon body */
+
+.SIMondiv {
+  font-family: "RobotoCondensed-Regular";
+  background-color: #ffff00;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bodydiv {
+  padding: 20px;
+}
+
+/* .bodydiv h2 und .headline, hätten zusammengefasst werden können */
+.bodydiv h2 {
+  margin: 0;
+  padding: 5px;
+}
+
+.headline {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 16px;
+  font-family: "Rubik-Black";
+}
+
+.h2top p {
+  margin: 0;
+  padding: 6px;
+  background-color: blueviolet;
+  display: inline;
+}
+
+.h2bottom p {
+  display: inline;
+  background-color: blueviolet;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.bodydiv ul {
+  position: relative;
+  top: 0;
+  left: 15px;
+  padding: 0;
+  list-style-image: url(../img/check-solid-full.svg);
+}
+
+.basetext li::before {
+  content: "✓";
+  vertical-align: middle;
+  font-size: 16px;
+  color: #8f1cd6;
+}
+
+.fa :checked {
+  content: "✓";
+}
+
+.basetext {
+  position: relative;
+  top: 0;
+  left: 16px;
+}
+
+/*
+*SIMon Nachbauen, versuch 2 (mit Flexbox)
+*/
+.SIMon2 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: #ffff00;
+  align-items: center;
+}
+
+/*
+*SIMon2 NAV*/
+
+.SIMonNAV2 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.SIMonNAV2 ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.SIMonNAV2 a {
+  text-decoration: none;
+  color: black;
+  justify-content: space-evenly;
+}
+
+/* SIMon body */
+
+.bodydiv {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flexbox Übung */
+
+.felxcontainer {
+  display: flex;
+  padding: 10px;
+  border: rgb(255, 0, 0) solid 1px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexitem {
+  display: flex;
+  margin: 2px;
+  padding: 5px;
+  color: white;
+  border: rgb(0, 255, 242) solid 1px;
+  flex-direction: column;
+  align-items: center;
+}
